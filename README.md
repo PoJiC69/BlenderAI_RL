@@ -1,2 +1,13 @@
-# BlenderAI_RL
-BlenderAI adalah platform AI berbasis reinforcement learning yang mengotomatisasi pemodelan 3D, animasi, dan tugas Blender lainnya. Dengan integrasi Gymnasium, PPO (Stable-Baselines3), dan OpenUSD, sistem ini memudahkan pembuatan, pelatihan, serta pengelolaan aset 3D secara efisien dan adaptif.
+# BlenderAI Reinforcement Learning
+
+This project integrates a custom Blender environment with Gymnasium and trains it using PPO (Stable-Baselines3).
+
+## Structure
+- `blender_env/`: Custom Gym environment for BlenderAI
+- `scripts/train_ppo.py`: PPO training script
+- `models/`: Saved models
+- `requirements.txt`: Dependencies
+
+## Usage
+1. Install requirements: `pip install -r requirements.txt`
+2. Run training: `python scripts/train_ppo.py`
