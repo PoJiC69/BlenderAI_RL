@@ -1,3 +1,6 @@
+import sys, os
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
+
 import gymnasium as gym
 from stable_baselines3 import PPO
 from blender_env.BlenderGymEnv import BlenderGymEnv
